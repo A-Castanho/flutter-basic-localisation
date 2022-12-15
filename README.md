@@ -1,16 +1,19 @@
 # flutter_app_localisation
 
-A new Flutter project.
+Localising your apps is easy in Flutter
+using the flutter_localizations package
 
-## Getting Started
+## Important sections
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-assets/l10n
+    The directory where the arb files are stored (localisation files)
+-lib/services/l10n
+    The directory where the localisation classes are stored
+  -app_localizations.dart
+      The main localisation class and the one used throught the app
+-l10n.yaml
+    The localisation generation configuration file
+    
+## Important commands
+-flutter gen-l10n
+  Generate the localisation files
