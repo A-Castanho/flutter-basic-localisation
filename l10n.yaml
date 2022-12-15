@@ -1,0 +1,12 @@
+# relative path to our arb files 
+arb-dir: assets/l10n
+# the basis for generating the Dart files (if you use placeholders only this file needs to specify their type)
+template-arb-file: app_en.arb
+# filename for the output  classes.
+output-localization-file: app_localizations.dart
+# directory where the generated localization classes will be written
+output-dir: lib/services/l10n
+# whethe or not the localizations class getter is nullable (personal preference)
+nullable-getter: false
+# allows the use of output-dir
+synthetic-package: false

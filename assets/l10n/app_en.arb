@@ -1,0 +1,14 @@
+{
+    "messageIdentifier": "My awesome message",
+    "helloThere" : "Hello, {name} no {number}!",
+    "@helloThere" : {
+        "placeholders": {
+            "name": {
+                "type" : "String"
+            },
+            "number": {
+                "type" : "int"
+            }
+        }
+    }
+}

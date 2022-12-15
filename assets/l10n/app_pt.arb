@@ -1,0 +1,4 @@
+{
+    "messageIdentifier": "A minha mensagem espetacular",
+    "helloThere" : "Olá, {name}, nº {number}!"
+}
